@@ -1,9 +1,10 @@
 import { LanguageEntryPage } from "@/components/language-entry";
 
 interface PageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
-export default function Page({ params }: PageProps) {
-  return <LanguageEntryPage language="jp" languageLabel="日本語" slug={params.slug} />;
+export default async function Page({ params }: PageProps) {
+  const { slug } = await params;
+  return <LanguageEntryPage language="jp" languageLabel="日本語" slug={slug} />;
 }
