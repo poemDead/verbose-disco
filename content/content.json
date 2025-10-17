@@ -1,0 +1,28 @@
+{
+  "zh": [
+    {
+      "id": "059694ae-e124-423d-93c8-283ae1096ebd",
+      "slug": "zh-20251016T141708762",
+      "language": "zh",
+      "text": "哈喽哈喽",
+      "sourceText": "哈喽哈喽",
+      "publishedAt": "2025-10-16T14:17:08.762Z",
+      "timezone": "Asia/Tokyo",
+      "city": "未知城市",
+      "weatherSummary": "天气信息不可用"
+    },
+    {
+      "id": "66bc02c6-84c1-443c-9c78-c7770740d80f",
+      "slug": "zh-20251016T142236738",
+      "language": "zh",
+      "text": "测试！",
+      "sourceText": "测试！",
+      "publishedAt": "2025-10-16T14:22:36.738Z",
+      "timezone": "Asia/Tokyo",
+      "city": "东京",
+      "weatherSummary": "大约是晴天"
+    }
+  ],
+  "jp": [],
+  "en": []
+}
